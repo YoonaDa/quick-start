@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+#    active: prod
+server:
+  port: 9999
+  servlet:
+    context-path: /api
